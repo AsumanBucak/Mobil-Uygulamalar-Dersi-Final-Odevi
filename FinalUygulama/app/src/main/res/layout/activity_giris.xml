@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GirisActivity"
+    android:paddingStart="36dp"
+    android:paddingEnd="36dp"
+    android:background="@color/blue_bg_color"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/editTextIsim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:hint="İsminizi giriniz"/>
+
+    <EditText
+        android:id="@+id/editTextSifre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Şifrenizi giriniz"/>
+
+
+    <Switch
+        android:id="@+id/switchBeniHatirla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beni Hatırla"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:thumbTint="@color/black"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
